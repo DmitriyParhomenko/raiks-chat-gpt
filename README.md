@@ -1,0 +1,2 @@
+# raiksChatGPT
+API openai.com
