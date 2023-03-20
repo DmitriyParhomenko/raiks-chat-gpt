@@ -1,0 +1,36 @@
+.app {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.content {
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid;
+  height: 50px;
+}
+
+.btn {
+  max-width: 100px;
+  background: transparent;
+  border: 1px solid;
+  padding: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.chat-response {
+  padding: 10px;
+}
